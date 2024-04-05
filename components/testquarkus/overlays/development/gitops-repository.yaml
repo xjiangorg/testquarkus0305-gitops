@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: testquarkus-gitops-repository
+spec:
+  url: https://github.com/xjiangorg/testquarkus0305-gitops
